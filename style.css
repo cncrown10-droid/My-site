@@ -1,0 +1,27 @@
+.home {
+  background: url('https://source.unsplash.com/1600x900/?business,office') no-repeat center/cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  padding: 0 10px;
+}
+
+/* Overlay sombre pour rendre le texte lisible */
+.home .overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* noir semi-transparent */
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+.home h1 {
+  font-size: 4em;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 1.5em;
+}
