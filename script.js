@@ -1,11 +1,10 @@
 <script>
 let images = [
-  "images/photo1.jpg",
-  "images/photo2.jpg",
-  "images/photo3.jpg"
+  "IMG_20251023_222244_991.jpg",
+  "1758746190604.jpg",
   // Ajoute ici tes autres images si nécessaire
 ];
-
+ 
 let currentIndex = 0;
 
 function openLightbox(index) {
