@@ -121,14 +121,26 @@
   <!-- Galerie -->
   <section id="gallery">
     <h2>Galerie</h2>
-    <div class="gallery">
-      <img src="IMG_20251023_222244_991.jpg" alt="Galerie 1">
-      <img src="1758746190604.jpg" alt="Galerie 2">
-      <img src="https://source.unsplash.com/400x400/?meeting" alt="Galerie 3">
-      <img src="https://source.unsplash.com/400x400/?technology" alt="Galerie 4">
-      <img scr="imgage" alt="image 5">
+    <div class="gallery-grid">
+      <img src="IMG_20251023_222244_991.jpg" class="gallery-item" onclick="openlightbox(0)">
+      <img src="1758746190604.jpg" class="gallery-item" onclick="openlightbox(1)" >
     </div>
   </section>
+
+<!-- Lightbox -->
+<div id="lightbox">
+  
+  <!-- Flèche gauche -->
+  <span class="arrow left" onclick="prevImage()">&#10094;</span>
+
+  <!-- Image affichée -->
+  <img id="lightbox-img">
+
+  <!-- Flèche droite -->
+  <span class="arrow right" onclick="nextImage()">&#10095;</span>
+
+</div>
+
 
   <!-- Contact -->
   <section id="contact">
